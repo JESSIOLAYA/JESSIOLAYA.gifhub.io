@@ -1,0 +1,387 @@
+
+}
+hoja de estilos construida
+.weather-forecast-item::part(control) {
+    width: 100%;
+    padding: 9px 0px;
+    color: var(--textStyle);
+}
+hoja de estilos construida
+.control, ::slotted([slot="end"]), ::slotted([slot="start"]) {
+    font: inherit;
+}
+hoja de estilos construida
+.control {
+    background: transparent;
+    height: inherit;
+    flex-grow: 1;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 calc((10 + (var(--design-unit) * 2 * var(--density))) * 1px);
+    white-space: nowrap;
+    outline: none;
+    text-decoration: none;
+    border: calc(var(--stroke-width) * 1px) solid transparent;
+    color: inherit;
+    border-radius: inherit;
+    fill: inherit;
+    cursor: inherit;
+    font-family: inherit;
+}
+hoja de estilo del agente de usuario
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+hoja de estilos construida
+.weather-forecast-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+hoja de estilos construida
+:host {
+    font-family: var(--body-font);
+    outline: none;
+    font-size: var(--type-ramp-base-font-size);
+    line-height: var(--type-ramp-base-line-height);
+    height: calc((var(--base-height-multiplier) + var(--density)) * var(--design-unit) * 1px);
+    min-width: calc((var(--base-height-multiplier) + var(--density)) * var(--design-unit) * 1px);
+    background-color: var(--neutral-fill-rest);
+    color: var(--neutral-foreground-rest);
+    border-radius: calc(var(--control-corner-radius) * 1px);
+    fill: currentcolor;
+    cursor: pointer;
+}
+hoja de estilo del agente de usuario
+li {
+    text-align: -webkit-match-parent;
+}
+hoja de estilos construida
+.weather-forecast {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    width: 268px;
+}
+hoja de estilo del agente de usuario
+ul {
+    list-style-type: disc;
+}
+Atributo style {
+    background: url(https://assets.msn.com/weathermapdata/1/static/background/v2.0/jpg/cloudy_1.jpg),url(https://assets.msn.com/weathermapdata/1/static/background/v2.0/jpg/sunny.jpg);
+    background-size: cover;
+    --msft-structured-data-card-ctacolor: #FFFFFF;
+    --more-action-hover-background: #454545;
+    --weather-card-forecast-background: rgba(225, 225, 225, 0.09);
+    --weather-card-forecast-hover-background: rgba(255, 255, 255, 0.15);
+    --textStyle: #FFFFFF;
+    --hintBackground: rgba(225, 225, 225, 0.09);
+    --hoverBackground: rgba(255, 255, 255, 0.15);
+}
+hoja de estilos construida
+:host {
+    --weather-card-forecast-background: rgba(255,255,255,0.5);
+    --weather-card-forecast-hover-background: rgba(255,255,255,0.8);
+    --weather-card-cta-background: rgba(0,0,0,0.05);
+    --weather-card-cta-hover-background: rgba(0,0,0,0.11);
+    --weather-card-cta-half-border: rgba(0,0,0,0.0578);
+}
+hoja de estilos construida
+:host {
+    position: relative;
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+    flex-direction: column;
+    outline: none;
+}
+Atributo style {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    --control-corner-radius: 8;
+}
+hoja de estilos construida
+:host {
+    --neutral-layer-1: #ffffff;
+    --fill-color: #ffffff;
+    --neutral-foreground-rest: #002c36;
+    --neutral-fill-layer-rest: #ffffff;
+    --focus-stroke-outer: #64909a;
+    --neutral-stroke-rest: #a7c9d1;
+    --neutral-stroke-hover: #7da5af;
+    --neutral-stroke-active: #c0dfe6;
+    --neutral-stroke-focus: #a7c9d1;
+    --neutral-fill-rest: #d9f4fa;
+    --neutral-fill-hover: #d1edf4;
+    --neutral-fill-active: #dff9ff;
+    --neutral-fill-focus: #ffffff;
+    --accent-fill-rest: #0078d4;
+    --accent-fill-hover: #006cbe;
+    --accent-fill-active: #1683d8;
+    --accent-fill-focus: #0078d4;
+    --foreground-on-accent-rest: #ffffff;
+    --foreground-on-accent-hover: #ffffff;
+    --foreground-on-accent-active: #000000;
+    --foreground-on-accent-focus: #ffffff;
+    --focus-stroke-inner: #ffffff;
+    --accent-foreground-rest: #0078d4;
+    --accent-foreground-hover: #0066b4;
+    --accent-foreground-active: #1181d7;
+    --accent-foreground-focus: #0078d4;
+    --neutral-fill-stealth-rest: #ffffff;
+    --neutral-fill-stealth-hover: #dff9ff;
+    --neutral-fill-stealth-active: #ecfbff;
+    --neutral-fill-stealth-focus: #ffffff;
+    --neutral-foreground-hint: #4e7d88;
+    --neutral-layer-floating: #ffffff;
+    --neutral-fill-input-rest: #ffffff;
+    --neutral-fill-input-hover: #ffffff;
+    --neutral-fill-input-active: #ffffff;
+    --neutral-fill-input-focus: #ffffff;
+    --neutral-stroke-divider-rest: #d7f2f8;
+    --menu-item-text-color: rgba(0, 0, 0, 0.6063);
+    --neutral-layer-card-container: #ecfbff;
+    --card-stroke-color: rgba(0,0,0,0.0578);
+    --neutral-stroke-strong-rest: #709aa3;
+    --neutral-stroke-strong-hover: #003a47;
+    --neutral-stroke-strong-active: #43737e;
+    --neutral-stroke-strong-focus: #2a5e6a;
+    --gradient-white-fill: linear-gradient(160deg, rgba(217,244,250,0.8), rgba(217,244,250,1)),#ffffff;
+    --gradient-background-fill: linear-gradient(160deg, rgba(217,244,250,0), rgba(217,244,250,1));
+    --neutral-fill-bubble-on-rest: #f2fdff;
+    --neutral-foreground-hint-on-bubble-on-rest: #4e7d88;
+    --neutral-layer-card: #ffffff;
+    --gradient-footer-mask-fill: linear-gradient(-180deg, rgba(217,244,250,0), rgba(217,244,250,1));
+}
+hoja de estilos construida
+:host {
+    --control-corner-radius: 8;
+    --content-padding: 0 0 16px;
+    --title-padding: 12px 16px;
+    position: relative;
+}
+hoja de estilos construida
+:host(:hover) {
+    --elevation: 8;
+}
+hoja de estilos construida
+:host {
+    --fill-color: #ffffff;
+    --neutral-layer-1: #ffffff;
+    --neutral-foreground-rest: #2b2b2b;
+    --neutral-fill-layer-rest: #ffffff;
+    --focus-stroke-outer: #878787;
+    --neutral-stroke-rest: #bebebe;
+    --neutral-stroke-hover: #979797;
+    --neutral-stroke-active: #d5d5d5;
+    --neutral-stroke-focus: #bebebe;
+    --neutral-fill-rest: #ededed;
+    --neutral-fill-hover: #e5e5e5;
+    --neutral-fill-active: #f2f2f2;
+    --neutral-fill-focus: #ffffff;
+    --accent-fill-rest: #0078d4;
+    --accent-fill-hover: #006cbe;
+    --accent-fill-active: #1683d8;
+    --accent-fill-focus: #0078d4;
+    --foreground-on-accent-rest: #ffffff;
+    --foreground-on-accent-hover: #ffffff;
+    --foreground-on-accent-active: #000000;
+    --foreground-on-accent-focus: #ffffff;
+    --focus-stroke-inner: #fbfdfe;
+    --accent-foreground-rest: #0078d4;
+    --accent-foreground-hover: #0066b4;
+    --accent-foreground-active: #1181d7;
+    --accent-foreground-focus: #0078d4;
+    --neutral-fill-stealth-rest: #ffffff;
+    --neutral-fill-stealth-hover: #f2f2f2;
+    --neutral-fill-stealth-active: #f7f7f7;
+    --neutral-fill-stealth-focus: #ffffff;
+    --neutral-foreground-hint: #757575;
+    --neutral-layer-floating: #ffffff;
+    --neutral-fill-input-rest: #ffffff;
+    --neutral-fill-input-hover: #ffffff;
+    --neutral-fill-input-active: #ffffff;
+    --neutral-fill-input-focus: #ffffff;
+    --neutral-stroke-divider-rest: #eaeaea;
+    --menu-item-text-color: rgba(0, 0, 0, 0.6063);
+    --neutral-layer-card-container: #f7f7f7;
+    --card-stroke-color: rgba(0,0,0,0.0578);
+    --neutral-stroke-strong-rest: #949494;
+    --neutral-stroke-strong-hover: #2e2e2e;
+    --neutral-stroke-strong-active: #6b6b6b;
+    --neutral-stroke-strong-focus: #545454;
+    --gradient-white-fill: linear-gradient(160deg, rgba(237,237,237,0.8), rgba(237,237,237,1)),#ffffff;
+    --gradient-background-fill: linear-gradient(160deg, rgba(237,237,237,0), rgba(237,237,237,1));
+    --neutral-fill-bubble-on-rest: #fafafa;
+    --neutral-foreground-hint-on-bubble-on-rest: #757575;
+    --neutral-layer-card: #ffffff;
+}
+hoja de estilos construida
+:host {
+    --elevation: 4;
+    display: block;
+    contain: content;
+    height: var(--card-height, 100%);
+    width: var(--card-width, 100%);
+    box-sizing: border-box;
+    background: var(--fill-color);
+    color: var(--neutral-foreground-rest);
+    border-radius: calc(var(--layer-corner-radius) * 1px);
+    box-shadow: 0 0 calc((var(--elevation) * 0.225px) + 2px) rgba(0, 0, 0, calc(0.11 * (2 - var(--background-luminance, 1)))), 0 calc(var(--elevation) * 0.4px) calc((var(--elevation) * 0.9px)) rgba(0, 0, 0, calc(0.13 * (2 - var(--background-luminance, 1))));
+}
+hoja de estilos construida
+cs-feed-layout {
+    grid-auto-rows: 146px;
+    --card-base-gap: 12;
+}
+hoja de estilos construida
+:host {
+    font-family: var(--body-font);
+    width: auto;
+    grid-auto-columns: calc(var(--card-base-width) * 1px);
+    grid-gap: calc(var(--card-base-gap) * 1px);
+}
+hoja de estilos construida
+:host {
+    display: grid;
+    flex-flow: row wrap;
+    gap: 12px;
+    justify-content: center;
+    --layer-corner-radius: 8;
+}
+hoja de estilos construida
+.feed {
+    display: grid;
+    flex-flow: row wrap;
+    gap: 12px;
+    justify-items: center;
+    justify-content: center;
+    --layer-corner-radius: 6;
+    margin-bottom: 33px;
+}
+hoja de estilos construida
+.grid-view-feed-root {
+    color: var(--neutral-foreground-rest);
+    margin: 0px auto;
+    position: relative;
+}
+hoja de estilos construida
+:host {
+    background-color: var(--fill-color);
+    color: var(--neutral-foreground-rest);
+}
+hoja de estilos construida
+:host {
+    --base-layer-luminance: 1;
+    --neutral-layer-1: #ffffff;
+    --fill-color: #f7f7f7;
+    --neutral-foreground-rest: #262626;
+    --neutral-fill-layer-rest: #ffffff;
+    --focus-stroke-outer: #828282;
+    --direction: ltr;
+    --neutral-stroke-rest: #b6b6b6;
+    --neutral-stroke-hover: #8f8f8f;
+    --neutral-stroke-active: #cecece;
+    --neutral-stroke-focus: #b6b6b6;
+    --neutral-fill-rest: #e5e5e5;
+    --neutral-fill-hover: #dddddd;
+    --neutral-fill-active: #eaeaea;
+    --neutral-fill-focus: #f7f7f7;
+    --accent-fill-rest: #0078d4;
+    --accent-fill-hover: #006cbe;
+    --accent-fill-active: #1683d8;
+    --accent-fill-focus: #0078d4;
+    --focus-stroke-inner: #eef6fc;
+    --accent-foreground-rest: #0072c9;
+    --accent-foreground-hover: #0060a9;
+    --accent-foreground-active: #097dd5;
+    --accent-foreground-focus: #0072c9;
+    --neutral-fill-stealth-rest: #f7f7f7;
+    --neutral-fill-stealth-hover: #eaeaea;
+    --neutral-fill-stealth-active: #efefef;
+    --neutral-fill-stealth-focus: #f7f7f7;
+    --neutral-foreground-hint: #707070;
+    --neutral-layer-floating: #ffffff;
+    --neutral-fill-input-rest: #f7f7f7;
+    --neutral-fill-input-hover: #f7f7f7;
+    --neutral-fill-input-active: #f7f7f7;
+    --neutral-fill-input-focus: #f7f7f7;
+    --neutral-stroke-divider-rest: #e2e2e2;
+    --menu-item-text-color: rgba(0, 0, 0, 0.6063);
+    --neutral-layer-card-container: #f7f7f7;
+    --card-stroke-color: rgba(0,0,0,0.0578);
+    --neutral-stroke-strong-rest: #8f8f8f;
+    --neutral-stroke-strong-hover: #292929;
+    --neutral-stroke-strong-active: #666666;
+    --neutral-stroke-strong-focus: #4f4f4f;
+    --neutral-foreground-hint-on-bubble-on-rest: #707070;
+    --neutral-layer-card: #ffffff;
+}
+<style>
+body {
+    margin: 0;
+    font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, sans-serif;
+}
+hoja de estilos construida
+:root {
+    --direction: ltr;
+    --control-corner-radius: 2;
+    --layer-corner-radius: 4;
+    --type-ramp-plus-4-font-size: 28px;
+    --type-ramp-plus-4-line-height: 36px;
+    --base-layer-luminance: 1;
+    --neutral-layer-1: #ffffff;
+    --fill-color: #ffffff;
+    --neutral-foreground-rest: #2b2b2b;
+    --base-height-multiplier: 8;
+    --base-horizontal-spacing-multiplier: 3;
+    --density: 0;
+    --design-unit: 4;
+    --stroke-width: 1;
+    --focus-stroke-width: 2;
+    --disabled-opacity: 0.3;
+    --type-ramp-minus-2-font-size: 10px;
+    --type-ramp-minus-2-line-height: 14px;
+    --type-ramp-minus-1-font-size: 12px;
+    --type-ramp-minus-1-line-height: 16px;
+    --type-ramp-base-font-size: 14px;
+    --type-ramp-base-line-height: 20px;
+    --type-ramp-plus-1-font-size: 16px;
+    --type-ramp-plus-1-line-height: 22px;
+    --type-ramp-plus-2-font-size: 20px;
+    --type-ramp-plus-2-line-height: 28px;
+    --type-ramp-plus-3-font-size: 24px;
+    --type-ramp-plus-3-line-height: 32px;
+    --type-ramp-plus-5-font-size: 32px;
+    --type-ramp-plus-5-line-height: 40px;
+    --type-ramp-plus-6-font-size: 40px;
+    --type-ramp-plus-6-line-height: 52px;
+    --accent-fill-rest-delta: 0;
+    --accent-fill-hover-delta: 4;
+    --accent-fill-active-delta: -5;
+    --accent-fill-focus-delta: 0;
+    --accent-foreground-rest-delta: 0;
+    --accent-foreground-hover-delta: 6;
+    --accent-foreground-active-delta: -4;
+    --accent-foreground-focus-delta: 0;
+    --neutral-fill-rest-delta: 7;
+    --neutral-fill-hover-delta: 10;
+    --neutral-fill-active-delta: 5;
+    --neutral-fill-focus-delta: 0;
+    --neutral-fill-input-rest-delta: 0;
+    --neutral-fill-input-hover-delta: 0;
+    --neutral-fill-input-active-delta: 0;
+    --neutral-fill-input-focus-delta: 0;
+    --neutral-fill-layer-rest-delta: 3;
+    --neutral-fill-stealth-rest-delta: 0;

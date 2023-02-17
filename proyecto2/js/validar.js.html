@@ -1,0 +1,211 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+$(function(){
+   $('#datosUsuario').validate({
+       rules:{
+           'usuario':{
+               required:true,
+               minlength:3
+
+           },
+           'pass':{
+               required:true,
+               rangelength:[5,30]
+           },
+           'pass2':{
+               required:true,
+               equalTo:'#pass'
+           },
+           'edad':{
+               required:true,
+               range:[18,90]
+           },
+           'correo':{
+               required:true,
+               email:true
+           },
+           'telefono':{
+               required:true,
+               rangelength:[10]
+           },
+           'integrantes':{
+               required:true
+           },
+           'fecha':{
+               required:true
+           },
+           'sexo':{
+               required:true
+           }
+       },
+       messages:{
+           'usuario':{
+               required:'Campo Obligatorio',
+               minlength:'Requiere por lo menos 3 caracteres'
+           },
+           'pass':{
+               required:'Campo Obligatorio',
+               rangelength:"Debe contener entre 5 y 30 caracteres"
+           },
+           'pass2':{
+               required:'Campo Obligatorio',
+               equalTo:'Debe coincidir con su contraseña anterior'
+           },
+           'edad':{
+               required:'Campo Obligatorio',
+               range:"Solo entre 18 y 90 años"
+           },
+           'correo':{
+               required:'Campo Obligatorio',
+               email:"Introduce una direccion valida"
+           },
+           'telefono':{
+               required:'Campo Obligatorio',
+               rangelength:"Numero con 10 digitos"
+           },
+           'integrantes':{
+               required:'Campo Obligatorio'
+           },
+           'fecha':{
+               required:'Campo Obligatorio'
+           },
+           'sexo':{
+               required:'Campo Obligatorio'
+           }
+       }
+   });
+});
+
+
+En estilo
+
+*
+{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+body
+{
+    background-color: #0099ff;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+form
+{
+    clear: both;
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    left: 10%;
+    border: solid #333333;
+    background-color: #33ccff;
+    padding-top: 70px;
+}
+form label
+{
+    clear: both;
+    float: left;
+    text-align: right;
+    padding: 10px;
+    margin-left: 35%;
+    width: 150px;
+}
+
+form input
+{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+select
+{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label.error
+{
+    clear: both;
+    position: absolute;
+    color: #cd0a0a;
+    right: 21%;
+    width: 300px;
+    text-align: left;
+}
+fieldset
+{
+    clear: both;
+    width: 60%;
+    margin-left: 20%;
+    height: 130px;
+}
+legend
+{
+    text-align: center;
+}
+#bailar
+{
+    clear: both;
+    position: absolute;
+    right: 66%;
+    top: 85%;
+}
+#bailarL
+{
+    clear: both;
+    position: absolute;
+    right: 67%;
+    top: 85%;
+    width: 80px;
+    height: 5px;
+    text-align: right;
+    line-height: 12px;
+}
+#leer
+{
+    clear: both;
+    position: absolute;
+    right: 66%;
+    top: 81%;
+}
+#leerL
+{
+    clear: both;
+    position: absolute;
+    right: 67%;
+    top: 81%;
+    width: 80px;
+    height: 5px;
+    text-align: right;
+    line-height: 12px;
+}
+#nadar
+{
+    clear: both;
+    position: absolute;
+    right: 66%;
+    top: 77%;
+}
+#nadarL
+{
+    clear: both;
+    position: absolute;
+    right: 67%;
+    top: 77%;
+    width: 80px;
+    height: 5px;
+    text-align: right;
+    line-height: 12px;
+}
+#aceptar
+{
+    clear: both;
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    left: 48%;
+}
